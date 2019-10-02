@@ -1,5 +1,8 @@
 # Simple Simplex
 ## Purpose
+
+[Wikipedia page of the Simplex Algorithm implemented by this program](https://www.wikiwand.com/en/Simplex_algorithm)
+
 The purpose of this script is mostly educational. I couldn't find any implementation of the simplex algorithm that would fit the basic wikipedia's description and at the same time be easy to read.
 
 All the implementations I came across were either too advanced (and hence not good for fundamental understanding), or too simplistic and messy with a pethora of for loops and cascading conditions.
