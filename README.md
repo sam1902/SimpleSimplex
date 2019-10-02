@@ -1,14 +1,14 @@
 # Simple Simplex
 ## Purpose
 
-[Wikipedia page of the Simplex Algorithm implemented by this program](https://www.wikiwand.com/en/Simplex_algorithm)
+[Wikipedia page of the Simplex Algorithm implemented by this program](https://en.wikipedia.org/wiki/Simplex_algorithm)
 
 The purpose of this script is mostly educational. I couldn't find any implementation of the simplex algorithm that would fit the basic wikipedia's description and at the same time be easy to read.
 
 All the implementations I came across were either too advanced (and hence not good for fundamental understanding), or too simplistic and messy with a pethora of for loops and cascading conditions.
 
 ## Design principle
-This solver isn't written to be fast, or even very reliable, but rather could be seen as an example of wikipedia's excellent descrirption of the [Simplex Algorithm](https://www.wikiwand.com/en/Simplex_algorithm#/Algorithm). It just touches on the basics but by doing so it's easily debuggable and understandable to someone seeing it for the first time.
+This solver isn't written to be fast, or even very reliable, but rather could be seen as an example of wikipedia's excellent descrirption of the [Simplex Algorithm](https://en.wikipedia.org/wiki/Simplex_algorithm#/Algorithm). It just touches on the basics but by doing so it's easily debuggable and understandable to someone seeing it for the first time.
 
 ## Usage
 As this isn't meant to be used by anyone for something other than education, it doesn't implement any form of automatic problem formulation whereby one would enter the constraints, objective and free variables. Instead you have to do it yourself, but it's a pretty straightforward process.
@@ -71,7 +71,7 @@ When you do so, you can formulate your problem as:
 
 (Where `c^T` is the transpose of `c` so to make it a line vector.)
 
-But the solver needs the [simplex tableau](https://www.wikiwand.com/en/Simplex_algorithm#/Simplex_tableau):
+But the solver needs the [simplex tableau](https://en.wikipedia.org/wiki/Simplex_algorithm#/Simplex_tableau):
 
 ```
 T = 
